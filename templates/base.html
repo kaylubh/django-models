@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snacks</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Super Supreme Snacks</h1>
+    <nav>
+      <a href="{% url 'snack_list' %}">Home</a>
+      <a href="https://github.com/kaylubh" target="_blank">Developer</a>
+    </nav>
+  </header>
+
+  <main>
+    {% block main %}{% endblock main %}
+  </main>
+
+  <footer>
+    <p>Super Supreme Snacks</p>
+    <p>A Django and Tailwinds learning project by Caleb Hemphill</p>
+  </footer>
+
+</body>
+</html>
